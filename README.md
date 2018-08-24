@@ -15,12 +15,15 @@ Download `APIManager.java` file.
 
 copy below method and paste into your `Util.java` class.
 
-      ``` public static boolean isNetworkAvailable(Context context) {
+      ``` 
+            public static boolean isNetworkAvailable(Context context) {
                     ConnectivityManager connectivityManager
                             = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
                     NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
                     return activeNetworkInfo != null && activeNetworkInfo.isConnected();
-      } ```
+      } 
+      
+      ```
  
 
 #### Dependencies for Loopj and Gson past it into .gradle file
