@@ -1,7 +1,7 @@
 # Retrofit
 How to use Retrofit in java projects
 
-#### Below the method that how to use `Retrofit`
+#### Below method is how to use the `Retrofit`
 
     RequestAPI requestAPI;
     User request;
@@ -51,7 +51,7 @@ Download `APIManager.java` file.
  
 `apiManager = new APIManager(getActivity());` add this line in `onCreate`
  
-#### Below the method that how to use `Loopj`
+#### Below method is how to use the `Loopj`
 
       RequestParams params = new RequestParams();
               params.put("key1", value1);
